@@ -1,0 +1,30 @@
+{
+  "name": "@pinpt/fn-cli",
+  "version": "0.0.1",
+  "description": "The CLI for running Fn",
+  "main": "bin/fn",
+  "files": [
+    "bin",
+    "LICENSE",
+    "README"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinpt/fn-cli.git"
+  },
+  "author": "Pinpoint",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.17.1",
+    "ejs": "^2.6.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {},
+  "bin": {
+    "fn": "./bin/fn"
+  }
+}
