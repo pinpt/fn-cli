@@ -259,7 +259,7 @@ module.exports = (sls) => {
             minifyJS: true
         });
 
-        fs.writeFileSync(apits, "export const html = Buffer.from('" + Buffer.from(htmlbuf).toString('base64') + "', 'base64').toString('utf-8');");    
+        fs.writeFileSync(apits, "/* tslint:disable */\nexport const html = Buffer.from('" + Buffer.from(htmlbuf).toString('base64') + "', 'base64').toString('utf-8');");    
     }
 
     return results;
